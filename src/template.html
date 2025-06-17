@@ -7,8 +7,10 @@
   </head>
   <body>
     <form>
-      <label for="income">Monthly Income:</label>
-      <input type="number" id="income" name="income" />
+      <div class="form-item monthly-income">
+        <label for="income">Monthly Income:</label>
+        <input type="number" id="income" name="income" />
+      </div>
       <fieldset>
         <legend>Monthly Expenses:</legend>
         <div class="form-item">
@@ -16,16 +18,16 @@
           <input type="number" id="housing" name="housing" />
         </div>
         <div class="form-item">
-          <label for="transportation">Transportation:</label>
-          <input type="number" id="transportation" name="transportation" />
+          <label for="utilities">Utilities:</label>
+          <input type="number" id="utilities" name="utilities" />
         </div>
         <div class="form-item">
           <label for="food">Food:</label>
           <input type="number" id="food" name="food" />
         </div>
         <div class="form-item">
-          <label for="utilities">Utilities:</label>
-          <input type="number" id="utilities" name="utilities" />
+          <label for="transportation">Transportation:</label>
+          <input type="number" id="transportation" name="transportation" />
         </div>
         <div class="form-item">
           <label for="subscriptions">Subscriptions:</label>
@@ -40,7 +42,7 @@
           <input type="number" id="other" name="other" />
         </div>
       </fieldset>
-      <button type="button">Calculate</button>
+      <button id="calculate" type="button">Calculate</button>
     </form>
   </body>
 </html>
