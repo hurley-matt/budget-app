@@ -38,11 +38,19 @@
           <input type="number" id="entertainment" name="entertainment" />
         </div>
         <div class="form-item">
+          <label for="savings">Savings:</label>
+          <input type="number" id="savings" name="savings" />
+        </div>
+        <div class="form-item">
           <label for="other">Other:</label>
           <input type="number" id="other" name="other" />
         </div>
       </fieldset>
       <button id="calculate" type="button">Calculate</button>
     </form>
+    <div class="charts">
+      <canvas id="user-chart"></canvas>
+      <canvas id="recommended-chart"></canvas>
+    </div>
   </body>
 </html>
